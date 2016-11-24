@@ -1,0 +1,49 @@
+body{
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  display: inline-block;
+
+}
+ul li a{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #ddd;
+  color: #ddd;
+  text-decoration: none;
+  transition: 0.4s all
+}
+ul li a:hover{
+  color: #c6a471;
+  border: 1px solid #c6a471;
+}
+h1{
+  color: #c6a471;
+}
+h3{
+  color: #c6a471;
+}
+input{
+  padding-left: 15px;
+  border: none;
+  width: 180px;
+  height: 28px;
+  border-radius: 5px;
+  background: #444;
+  color: #fff;
+}
+button{
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  background: #191919;
+  border: none;
+  color: #ddd;
+}
