@@ -27,6 +27,7 @@ app.get('/' , function(req,res){
           });
         });
         res.send(JSON.stringify(boxOffice, null, 4));//json 보여지는 방식 정하는 코드
+        // Json.stringify(value[,replace[, space]]);
 });
 
 // request({method:'GET',uri:''},function (err, res, body) {
